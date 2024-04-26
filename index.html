@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+   <div class="wrapper">
+      <div class="form">
+         <form id="form" class="form__body" action="#">
+
+            <div class="form__item">
+               <label for="formName" class="form__label">Ім'я:</label>
+               <input type="text" class="form__input name" id="formName" name="name">
+               <div class="error"></div>
+            </div>
+            <div class="form__item">
+               <label for="formPhone" class="form__label phone ">Телефон:</label>
+               <input type="tel" class="form__input phoneField" id="formPhone" name="phone">
+               <div class="error"></div>
+            </div>
+            <div class="form__item">
+               <label for="formEmail" class="form__label ">E-mail:</label>
+               <input type="text" class="form__input" id="formEmail" name="email">
+               <div class="error"></div>
+            </div>
+
+            <div class="form__item">
+               <label for="forMessage" class="form__label">Повідомлення:</label>
+               <textarea class="form__input" name="message" id="forMessage" cols="30" rows="10"></textarea>
+            </div>
+            <div class="form__item">
+               <div class="checkbox">
+                  <input class="checkbox__input" id="formAgreement" name="agreement" type="checkbox">
+                  <label checked for="formAgreement" class="checkbox__label"><span> Я даю згоду</span></label>
+                  <div class="error"></div>
+               </div>
+            </div>
+            <button type="submite" class="form__button">Відправити</button>
+      </div>
+   </div>
+
+
+   </form>
+   </div>
+   </div>
+
+
+   <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>
